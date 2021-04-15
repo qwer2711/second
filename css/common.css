@@ -465,10 +465,9 @@ footer .select:hover::after {color: #fff;}
     .mainmovie {height: 850px;}
     .mainmovie .main_video {display: none;}
     .mainmovie .home_img {display: block;}
-    .mainmovie::after {background: rgba(0, 0, 0, 0.0);}
-    .home .iconmouse {bottom: -50px; }
+    .mainmovie::after {background: rgba(0, 0, 0, 0.0);}}
     .home_txt .glow-on-hover {margin-top:00px;}
-    .home .iconmouse {bottom: 90px;}
+    .home .iconmouse {bottom: 40px;}
     .w1280 {padding: 50px 50px;}
     
     /* main02 */
