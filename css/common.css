@@ -154,8 +154,8 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 /**********  main03_박빙  ***********/
 
 .main03 {height: 630px; position: relative; padding: 75px 0 0 0; background: #f0f0f0; overflow: hidden;}
-.main03 .cell {transform: translate(-500px, 0px); transition: all 1.5s 0.9s;}
-.main03 .left-img{width: 50%;}
+.main03 .cell {height: 100%; transform: translate(-500px, 0px); transition: all 1.5s 0.9s;}
+.main03 .left-img{width: 50%; height: 100%;}
 .main03 .left-img img {width: 100%;}
 
 .main03 .right-txt{width: 44%; height: 270px; position: absolute; bottom: -120px; right:0; background: #fff; padding:50px 45px; border-top-left-radius: 10px; border-top-right-radius: 10px; -moz-box-shadow: 3px 3px 3px 3px #999; -webkit-box-shadow: 3px 3px 3px 3px #999; box-shadow: 3px 0px 6px 0px rgba(153, 153, 153, 0.3);}
