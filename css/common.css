@@ -136,7 +136,7 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 /**********  main02_테코드  ***********/
 
-.w1280 {width: 100%; max-width: 1280px; height: 100%; margin: 0 auto; position: relative;}
+.w1280 {width: 100%; max-width: 1280px; margin: 0 auto; position: relative;}
 
 .main02 {height: 550px; position: relative; padding: 110px 0 0 50px; z-index: 10;}
 .main02 .cell {transform: translate(500px, 0px); transition: all 1.5s;}
@@ -471,9 +471,11 @@ footer .select:hover::after {color: #fff;}
     .w1280 {padding: 50px 50px;}
     
     /* main02 */
+    .main02 {height: 550px;}
     .main02 dd img {width: 100%;}
     .main02 strong {font-size: 40px;}
     /* main03 */
+    .main03 {height: 550px;}
     .main03 .left-img {padding: 0px 0px 20px 0px;}
     .main03 .tit {font-size: 13.5px; margin-bottom: 10px;}
     .main03 strong {font-size: 22px;}
