@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SECONDGROUND</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- 아울 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- XEicon 아이콘 불러오기 -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <header>
+            <div class="header_wrap clearfix" id="head_wrap">
+                <h1><a href="" class="logo-navy img-box"><img src="./images/logo_navy.png" alt=""></a></h1>
+                <nav>
+                    <ul class="clearfix" id="gnb">
+                        <li><a href="">회사소개</a>
+                            <ul>
+                                <li><a href="">인사말</a></li>
+                                <li><a href="">히스토리</a></li>
+                                <li><a href="">조직도</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">제품소개</a>
+                            <ul>
+                                <li><a href="">박빙 솔루션</a></li>
+                                <li><a href="">테코드 시스템</a></li>
+                                <li><a href="">WEB&APP</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="">커뮤니티</a>
+                            <ul>
+                                <li><a href="">갤러리</a></li>
+                                <li><a href="">뉴스소식</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">오시는길</a>
+                            <ul>
+                                <li><a href="">오시는길</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <div id="head_back"></div>
+                <ul class="info cell-right clearfix">
+                    <li class="cell"><a href="" class=""><img src="./images/bacvinghome.png" alt=""></a></li>
+                    <li class="cell"><a href="" class=""><i class="fab fa-youtube"></i></a></li>
+                    <li class="cell"><a href="" class=""><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="cell"><a href="" class=""><i class="fab fa-blogger"></i></a></li>
+                </ul>
+            </div>
+            <div id="m_header">
+                <div class="top_menu">
+                    <div class="top_inner">
+                        <a href="index.html">
+                            <img src="./images/logo_navy.png" alt="logo" class="m_logo"></a>
+                        <div id="hamburger_wrapper">
+                            <div id="hamburger_menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="allMenu">
+                    <h4>메뉴</h4>
+                    <div class="m_gnb">
+                        <div class="sideNav">
+                            <ul class="depth1">
+                                <li class="depth1_list has-sub"><a href="#">회사소개<i class="fa fa-chevron-down right--icon"></i><i class="fa fa-chevron-down right--icon"></i></a>
+                                    <ul class="depth2">
+                                        <li class="depth1_list"><a href="sub1-1.html">인사말</a></li>
+                                        <li class="depth1_list"><a href="sub1-2.html">히스토리</a></li>
+                                        <li class="depth1_list"><a href="sub1-3.html">조직도</a></li>
+                                        <li class="depth1_list"><a href="sub1-4.html">오시는길</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-sub"><a href="#">제품소개<i class="fa fa-chevron-down right--icon"></i></a>
+                                    <ul class="depth2">
+                                        <li class="has-sub"><a href="sub2-1.html">박빙솔루션<i class="fa fa-chevron-down right--icon-sub"></i></a>
+                                        <li class="has-sub"><a href="sub2-2.html">테코드시스템<i class="fa fa-chevron-down right--icon-sub"></i></a>
+                                        <li class="has-sub"><a href="sub2-3.html">WEB&APP<i class="fa fa-chevron-down right--icon-sub"></i></a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-sub"><a href="#">커뮤니티<i class="fa fa-chevron-down right--icon"></i></a>
+                                    <ul class="depth2">
+                                        <li><a href="sub3-1.html">갤러리</a>
+                                        </li>
+                                         <li><a href="sub3-2.html">뉴스소식</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-sub"><a href="#">오시는길<i class="fa fa-chevron-down right--icon"></i></a>
+                                    <ul class="depth2">
+                                        <li><a href="sub4-1.html">오시는길</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="side-sns">
+
+                        <ul class="info clearfix">
+                            <li class="cell"><a href="" class=""><img src="./images/bacvinghome.png" alt=""></a></li>
+                            <li class="cell"><a href="" class=""><i class="fab fa-youtube"></i></a></li>
+                            <li class="cell"><a href="" class=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li class="cell"><a href="" class=""><i class="fab fa-blogger"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="side_footer">
+                        <a href="privacy_1.html" class="footer_menu_item">개인정보처리방침</a>
+                        <a href="privacy_2.html" class="footer_menu_item">이용약관</a>
+                        <a href="privacy_3.html" class="footer_menu_item">이메일무단수집거부</a>
+                        <!-- <a href="admin.html" class="footer_menu_item">관리자모드</a> -->
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="mainmovie">
+                <video id="mainMovie" muted="true" autoplay="" loop="" class="main_video">
+                    <source src="./images/Video%20Production.mp4" type="video/mp4">
+                </video>
+                <div class="home_img"><img src="./images/m_home.png" alt=""></div>
+            </div>
+            <div class="home_txt">
+                <div class="top">
+<!--                    <p>Play like a pro!</p>-->
+                </div>
+                <!--<div class="middle">
+                    <p>최고의 기술력과 축적된 Know-how와 개발솔루션 확보로 최적의 IT시스템과 컨설팅을 제공합니다.</p>
+                </div>-->
+                <button onclick="location.href='sub1-1.html'" class="glow-on-hover">VIEW MORE</button>
+            </div>
+            <div class="iconmouse">
+                <span class="ball"></span>
+            </div>
+
+        </section>
+
+        <div class="container">
+
+            <div class="main02 w1280 clearfix">
+                <dt class="cell">
+                    <h2 class="tit">1인방송 최적화 시스템 <br>자체개발 S/W GS인증,</h2><strong><font>T</font>ECORD</strong>
+                    <p class="subTxt">자체개발 S/W GS인증으로 편리한 이동성과 시간과 장소에 <br> 구애받지 않는 장비의 경량성 솔루션을 통해 1인방송시대를 열어갑니다.</p>
+                </dt>
+                <dd class="cell"><img src="./images/main_02.png" alt=""></dd>
+            </div>
+
+            <div class="main03">
+
+                <div class="w1280 clearfix">
+                    <div class="left-img cell"> <img src="./images/iphone.png" alt=""></div>
+                    <dt class="right-txt cell">
+                        <h2 class="tit">스포츠계의 혁명 <br>기록 + 분석 + 실시간 중계방송을 동시에!</h2><strong>스포츠 기록 시스템 "<font>B</font>ACVING"</strong>
+                        <p class="subTxt">웹 & 모바일 경기기록 입력 및 분석 시스템 , <br>혁신적인 팀은 박빙 플랫폼을 사용하여 게임을 관리합니다.</p>
+                    </dt>
+                </div>
+
+            </div>
+
+            <div class="main04 clearfix">
+
+                <div class="imgWrap p_only">
+                    <img class="on" src="./images/part_01.png" alt="">
+                    <img src="./images/part_02.png" alt="" class="">
+                    <img src="./images/part_03.png" alt="" class="">
+                    <img src="./images/part_04.png" alt="" class="">
+                </div>
+                
+                <div class="imgWrap m_only">
+                    <img class="on" src="./images/part_01_m.png" alt="">
+                    <img src="./images/part_02_m.png" alt="" class="">
+                    <img src="./images/part_03_m.png" alt="" class="">
+                    <img src="./images/part_04_m.png" alt="" class="">
+                </div>
+               
+                <div class="titWrap">
+                    <h2 class="tit"><strong>PLAY LIKE A PRO !</strong></h2>
+                    <p class="subTxt">포스트코로나 시대에 발맞추어 실시간 스포츠방송, 교육 및 행사,라이브커머스
+                    
+                    
+                    </p>
+                    
+                </div>
+                <ul class="swiper-wrapper clearfix">
+                    <li class="swiper-slide cell on">
+                        <div class="txt">
+                            <p><i class="fas fa-baseball-ball"></i></p>
+                            <p>SPORTS</p>
+                            <div class="more-txt">
+                                포스트코로나 시대에 발맞추어 실시간 스포츠방송, 교육 및 행사,라이브커머스
+                                <button class="glow-on-hover"><i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide cell">
+                        <div class="txt">
+                            <p><i class="fas fa-laptop-code"></i></p>
+                            <p>EDUCATION</p>
+                            <div class="more-txt">
+                                포스트코로나 시대에 발맞추어 실시간 스포츠방송, 교육 및 행사,라이브커머스
+                                <button class="glow-on-hover"><i class="fas fa-arrow-right"></i></button>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide cell">
+                        <div class="txt">
+                            <p><i class="fas fa-heart"></i></p>
+                            <p>LIVE CERMMERCE</p>
+                            <div class="more-txt">
+                                포스트코로나 시대에 발맞추어 실시간 스포츠방송, 교육 및 행사,라이브커머스
+                                <button class="glow-on-hover"><i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide cell">
+                        <div class="txt">
+                            <p><i class="fas fa-play-circle"></i></p>
+                            <p>SHOW</p>
+                            <div class="more-txt">
+                               포스트코로나 시대에 발맞추어 실시간 스포츠방송, 교육 및 행사,라이브커머스
+                               <button class="glow-on-hover"><i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+            
+            <div class="main05">
+                <div class="w1280">
+                    <h2 class="tit">뉴스소식</h2>
+                    <ul>
+                        <li><a href="" target="_blank">
+                                <div class="imgWrap"><img src="./images/news_1.png" alt=""></div>
+                                <div class="txtWrap">
+                                    <strong>뉴스레터</strong>
+                                    <p>세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터 </p>
+                                    <span class="day">2021.02.23</span>
+                                </div>
+                            </a></li>
+                        <li><a href="">
+                                <div class="imgWrap"><img src="./images/news_2.png" alt=""></div>
+                                <div class="txtWrap">
+                                    <strong>뉴스레터</strong>
+                                    <p>세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터</p>
+                                    <span class="day">2021.02.23</span>
+                                </div>
+                            </a></li>
+                        <li><a href="" target="_blank">
+                                <div class="imgWrap"><img src="./images/news_3.png" alt=""></div>
+                                <div class="txtWrap">
+                                    <strong>뉴스레터</strong>
+                                    <p>세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터</p>
+                                    <span class="day">2021.02.09</span>
+                                </div>
+                            </a></li>
+                        <li><a href="">
+                                <div class="imgWrap"><img src="./images/news_4.png" alt=""></div>
+                                <div class="txtWrap">
+                                    <strong>뉴스레터</strong>
+                                    <p>세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터세컨그라운드 뉴스레터</p>
+                                    <span class="day">2021.02.09</span>
+                                </div>
+                            </a></li>
+                    </ul>
+                    <div>
+                    <button class="glow-on-hover">자세히보기<i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="main06 w1280 clearfix">
+			<div class="partner-tit cell">
+				<h2 class="tit">(주)세컨그라운드의<br><strong>파트너사를</strong><br>소개합니다.</h2>
+				<p class="subTxt">고객만족을 위해 최선을 다합니다.</p>
+			</div>
+			<div class="partner-list cell">
+				<ul class="clearfix">
+					<li class="cell"><img src="./images/partner_1.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_2.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_3.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_4.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_5.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_6.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_7.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_8.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_9.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_10.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_11.png" alt=""></li>
+					<li class="cell"><img src="./images/partner_12.png" alt=""></li>
+				
+					
+				</ul>
+			</div>
+		</div>
+
+
+
+        </div>
+        
+        <footer>
+            <div class="footer_container">
+                <div class="footer-gnb-container">
+                    <div class="footer-gnb">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="sub1-1.html">이용안내</a>
+                            </li>
+                            <li>
+                                <a href="sub2-1.html">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="sub3-1.html">개인정보취급방침</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="info-wrap">
+                        <div class="info">
+                            <p class="department">(주)세컨그라운드</p>
+                            <p class="content">대전광역시 유성구 유성대로 1689번길 70 KT대덕2연구센터 304호</p>
+                        </div>
+                        <div class="info">
+                            <p class="department">일정 조정</p>
+                            <p class="content">홍길동(010-0000-0000)</p>
+                        </div>
+                      
+                    </div>
+                   
+                    <div class="select">
+                        <select onchange="if(this.value) window.open(this.value);">
+                            <option selected="" disabled="">Family Site</option>
+                            <option value="www.bacving.com">박빙닷컴</option>
+                            <option value="www.secondground.net">세컨그라운드</option>
+                        </select>
+                    </div>
+                    <div class="foot-logo">
+                        <a href="#" class=" img-box"><img src="./images/second_logo_2.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="foot">
+                <div class="footWrap">
+                    <address>
+                        <span class="copy">
+                            Copyright © 2021 (주)세컨그라운드 Co.,Inc. ALL RIGHTS RESERVED
+                        </span>
+                    </address>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>
