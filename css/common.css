@@ -449,7 +449,9 @@ footer .select:hover::after {color: #fff;}
     
     .main04 .imgWrap.m_only {display: block;}
     .main04 .imgWrap.p_only {display: none;}
-    
+    /* main05 */
+    .pd_0 {padding: 0px 0px!important;}
+    .main03 .right-txt {border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; text-align: center;}
     
     /* main06 */
     .main06 .tit {margin-bottom: 5px;font-size: 25px;}
@@ -468,20 +470,22 @@ footer .select:hover::after {color: #fff;}
     .mainmovie::after {background: rgba(0, 0, 0, 0.0);}}
     .home_txt .glow-on-hover {margin-top:00px;}
     .home .iconmouse {bottom: 20px;}
-    .news-pd {padding: 50px 20px!important;}
+
     
     /* main02 */
     .main02 {height: 550px;}
     .main02 dd img {width: 100%;}
     .main02 strong {font-size: 40px;}
     /* main03 */
+
     .main03 {height: 550px;}
-    .main03 .left-img {padding: 0px 0px 20px 0px;}
+    .main03 .left-img {padding: 40px 40px 40px 40px;}
     .main03 .tit {font-size: 13.5px; margin-bottom: 10px;}
     .main03 strong {font-size: 22px;}
     .main03 .subTxt {font-size: 13px;}
     .main03 .right-txt {padding: 20px 20px;}
     /* main05 */
+    .news-pd {padding: 50px 20px!important;}
     .main05 {padding-top: 0px; padding-bottom: 0px;}
     .main05 ul li {width: calc(100% - 40px); margin: 20px;}
     .main05 .tit {font-size: 20px; margin-bottom: 30px;}
