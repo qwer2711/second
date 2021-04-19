@@ -97,5 +97,9 @@ $(document).ready(function () {
         
         
     })
+    
+     $('.dropdown').click(function(){
+         $(this).children('.dropdown-menu').toggleClass('on');
+});
 
 });
