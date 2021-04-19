@@ -270,6 +270,69 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .main06 .partner-list ul li img {display: block; width: 100%;}
 
 
+
+
+
+/* ------------ 서브페이지 시작 ---------------*/
+/* sub_banner */
+.sub_banner{width:100%; height: 30%; overflow: hidden; position: relative; box-sizing: border-box; z-index: -1;}
+.sub_banner img {animation: zoomin 4s ease-in; transition: all 1.5s;}
+.sub_banner .businese_txt {position: absolute; top:50%; left: 50%; transform: translateX(-50%) translateY(-50%); color: #fff; font-size: 2.2rem;}
+/* sub_banner_zoomin */
+@-webkit-keyframes zoomin {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.1);}
+	100% {transform: scale(1);}
+}
+@keyframes zoomin {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.1);}
+	100% {transform: scale(1);}
+} 
+/* subpage_location */
+.lt_tit{line-height: 30px; text-align: right; margin: 30px 10px 0 0;}
+.lt_line{width: 100%; margin: 5px auto; border-bottom: 1px solid #eee;}
+/* sub_title */
+.sub_tit {text-align: center; margin: 50px 0;}
+/* max-width */
+.cont_area {max-width:1400px; margin: 0 auto 50px; padding: 0 20px;}
+
+/* sub1-1_인사말 */
+.greeting {margin-bottom: 100px;}
+.top_cont {position: relative; height: 39rem;}
+.top_cont .greeting_tit {font-size: 3rem; font-weight: 700; color: #222; line-height: 5.833rem; letter-spacing: -.05em}
+.top_cont .img-greeting {position: absolute; width:38rem; right: 0; top: 0; z-index: -1; }
+.quote {position: relative; display: block; width: 28.167rem; margin: 6rem 0 0 10rem; font-size: 1.5rem; line-height: 2.833rem; text-indent: -2.666rem; z-index: 3; font-weight: 500;}
+.quote:after, .greeting .quote:before {content: ''; display: inline-block; vertical-align: baseline; width: 2.666rem; height: 1.75rem; background-image: url(../images/sub/bg_quote.png); background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover}
+.quote:before {-webkit-transform: translateX(-.833rem); -moz-transform: translateX(-.833rem);}
+.quote:after {-ms-background-position-y: bottom; background-position-y: bottom;}
+.txt_box {background: #f2f2f2; padding: 50px; border-radius: 5px;}
+.greeting_txt {max-width:1200px; margin: 0 auto; font-size: 1.2rem; word-break: keep-all; line-height: 35px; text-align: left; }
+.last {font-size: 20px; text-align: right; font-weight: 600;}
+/* sub1-1_인사말_끝 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**********  footer  ***********/
 footer{position: relative; width: 100%;}
 .footer_container {background: #111; position: relative; width: 100%;}
