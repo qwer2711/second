@@ -310,20 +310,22 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 
 /******sub-width******/
-.cont_area {max-width:1400px; margin: 0 auto 50px; padding: 0 20px;}
+.cont_area {max-width:1400px; margin: 0 auto 50px;}
 
 /* sub1-1_인사말 */
-.greeting {margin-top: 70px; margin-bottom: 100px;}
+.greeting {margin: 50px 0;}
 .top_cont {position: relative; height: 39rem;}
-.top_cont .greeting_tit {font-size: 3.3rem; font-weight: 500; color: #222; line-height: 5rem; letter-spacing: -.05em}
-.top_cont .img-greeting {position: absolute; width:40%; right: 100px; top: 10%; z-index: -1; }
-.quote {position: relative; display: block; width: 28.167rem; margin: 6rem 0 0 10rem; font-size: 1.5rem; line-height: 2.833rem; text-indent: -2.666rem; z-index: 3; font-weight: 500;}
-.quote:after, .greeting .quote:before {content: ''; display: inline-block; vertical-align: baseline; width: 2.666rem; height: 1.75rem; background-image: url(../images/sub/bg_quote.png); background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover}
+.top_cont .greeting_tit {font-size: 3.3rem; font-weight: 600; color: #222; line-height: 5.5rem; letter-spacing: -.05em}
+.top_cont .img-greeting {position: absolute; width:60%; right: 0px; top: 0%; z-index: -1; }
+.quote {position: relative; display: block; width: 28.167rem; margin: 6rem 0 0 10rem; font-size: 1.5rem; line-height: 2.833rem; text-indent: -2.666rem; z-index: 3; font-weight: 400;}
+.quote:after, .greeting .quote:before {content: ''; display: inline-block; vertical-align: baseline; width: 2.666rem; height: 1.75rem; background-image: url(../images/bg_quote.png); background-repeat: no-repeat; -webkit-background-size: cover;}
 .quote:before {-webkit-transform: translateX(-.833rem); -moz-transform: translateX(-.833rem);}
 .quote:after {-ms-background-position-y: bottom; background-position-y: bottom;}
-.txt_box {background: #f2f2f2; padding: 50px; border-radius: 5px;}
-.greeting_txt {max-width:1200px; margin: 0 auto; font-size: 1.2rem; word-break: keep-all; line-height: 35px; text-align: left; }
-.last {font-size: 20px; text-align: right; font-weight: 600;}
+.txt_box {padding: 0px 0px 50px;}
+.txt_box .greeting_txt {max-width:1170px; margin: 20px auto; font-size: 1.2rem; word-break: keep-all; line-height: 35px;}
+.txt_box .greeting_txt_1 {margin-top: 30px; border-top:1px solid #dcdcdc; padding-top: 50px;}
+.last span {font-size: 22px; font-weight: 600; line-height: 100px; margin-right: 10px; color: #454545;}
+.last img {width: 150px;}
 /* sub1-1_인사말_끝 */
 
 
@@ -339,7 +341,7 @@ footer{position: relative; width: 100%;}
 .footer-gnb-container .footer-gnb ul li a:hover { color: #555; }
 
 .footer {position: relative; width: 1200px; margin: 0 auto;  padding: 20px 0 50px; }
-.footer .info-wrap { margin-bottom: 10px; }
+.footer .info-wrap {margin-bottom: 10px; }
 .footer .info-wrap .info { display:block; margin-right: 30px; margin-bottom: 8px; }
 .footer .info-wrap .info p { font-size: 16px; color: #999;  }
 .footer .info-wrap .info p.department { margin-right: 18px; position: relative; display: inline-block; }
@@ -456,6 +458,7 @@ footer .select:hover::after {color: #fff;}
     /* 모바일 메뉴 끝 */
     
     .w1280 {padding: 60px 50px;}
+    .cont_area {max-width:1100px; margin: 0 auto 50px;}
 
     /* main02 */
     .main02 dd {right: 5%;}
@@ -483,6 +486,7 @@ footer .select:hover::after {color: #fff;}
 
 
 @media screen and (max-width:1024px){
+    .cont_area {max-width:900px; margin: 0 auto 50px;}
     /* main02 */
     .main02 {height: 500px;}
     .main02 dd {top: 20%; right: 5%; text-align: inherit;}
@@ -490,13 +494,15 @@ footer .select:hover::after {color: #fff;}
     .main03 .left-img {width: 60%; padding: 0px 80px 0px 0px;}
     .main03 .right-txt {width: 45%; height: auto; padding: 35px 35px; border-top-left-radius: 10px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 10px;}
     /* sub1-1 인사말 */
-    .top_cont {padding: 30px;}
+    .top_cont {height: 31rem;}
     .quote {width: 20rem; margin: 6rem 0 0 3rem; font-size: 1.2rem; line-height: 2.833rem; text-indent: -2.666rem;}
+    .top_cont .greeting_tit {font-size: 35px; line-height: 4.5rem;}
+    .quote:after, .greeting .quote:before {width: 2rem; height: 1.34rem;}
 }
 
 @media screen and (max-width:768px){
     .w1280 {padding: 40px 50px;}
-    .cont_area {max-width:1400px; margin: 0 auto 50px; padding: 0 20px;}
+    .cont_area {max-width:660px; margin: 0 auto 50px;}
 
     /* main02 */
     .main02 {height: 100%;}
@@ -524,11 +530,14 @@ footer .select:hover::after {color: #fff;}
     .main06 .subTxt {font-size: 13px;}
     .main06 .partner-list ul li {width: calc(33.333% - 20px);height: auto;}
      /* sub1-1 인사말 */
-    top_cont .greeting_tit {font-size: 2rem; line-height: 3rem; letter-spacing: -.05em;}
-    .quote {width: 20rem; margin: 8rem 0 0 2rem ;font-size: 1.2rem; line-height: 2.833rem;text-indent: -2.666rem;}
-    .top_cont .img-greeting {width: 25rem;}
-    .top_cont {height: 39rem;}
+    .greeting {margin: 20px 0;}
+    .top_cont {height: 26rem;}
+    .top_cont .greeting_tit {font-size: 32px; line-height: 4rem; letter-spacing: -.05em;}
+    .quote {width: 20rem; margin: 3rem 0 0 2rem; font-size: 1.16rem; line-height: 2.833rem; text-indent: -2.666rem; word-break: keep-all;}
+    .top_cont .img-greeting {width:75%;}
+
     .greeting_txt {font-size: 16px; text-align: left;}
+    .txt_box {padding: 60px 0px 0px;}
     
     
     
@@ -571,14 +580,17 @@ footer .select:hover::after {color: #fff;}
     .main06 .partner-tit {width: 100%; text-align: center; margin-bottom: 20px; padding-left: 0;}
     .main06 .partner-list {width: 100%;}
     .main06 .partner-list ul li {width: calc(50% - 20px);height: auto;}
-     /* sub1-1인사말 */
-    .quote:after, .greeting .quote:before {width: 1.5rem; height: 1rem;}
-    .top_cont .greeting_tit {font-size: 1.8rem; line-height: 3rem; letter-spacing: -.05em;}
-    .quote {width:100%; margin: 2rem 0 0 2rem ; font-size: 16px; line-height: 2rem; text-indent: -1.6rem; word-break: keep-all;}
-    .top_cont .img-greeting {width: 10rem;}
-    .top_cont {height: 23rem;}
-    .greeting_txt {font-size: 16px; text-align: left;}
     
+    .cont_area {max-width:370px; margin: 0 auto 30px;}
+     /* sub1-1인사말 */
+    .txt_box {padding: 90px 0px 0px;}
+    .quote:after, .greeting .quote:before {width: 1.5rem; height: 1rem;}
+    .top_cont .greeting_tit {font-size: 23px; line-height: 3rem; letter-spacing: -.05em;}
+    .quote {width:75%; margin: 5rem 0 0 3rem ; font-size: 15px; line-height: 2rem; text-indent: -1.6rem; word-break: keep-all;}
+    .top_cont .img-greeting {width: 80%;}
+    .top_cont {height: 18rem;}
+    .greeting_txt {font-size: 15px; text-align: left; line-height: 30px;}
+
 }
 
 
