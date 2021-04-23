@@ -355,8 +355,9 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .history th,.history table td{padding:12px 0 11px;border-top:1px solid #e8e8e8}
 .history tr:first-child th,.history table tr:first-child td{border-top:none}
 .history th{font-size:15px;font-weight:normal;color:#172c52;vertical-align:top}
-.history th.mon{padding-left:2px;font-size:12px}
-.history td{line-height:20px;color:#92979e}
+.history th.mon{padding-left:2px;font-size:12px; font-weight: bold;}
+.history th.year{font-weight: bold;}
+.history td{line-height:20px; color:#72767c}
 .history_open{display:inline-block;margin:45px 0 0 5px;outline:none}
 
 /****** sub1-2_회사연혁_끝 ******/
@@ -644,7 +645,8 @@ footer .select:hover::after {color: #fff;}
     
     /* sub_banner */
     .sub_banner .img-box {margin-left: -40%;}
-    .sub_banner .businese_txt {top: 60%;}
+    .sub_banner .businese_txt {top: 60%; font-size: 1.6rem;}
+    
      /* sub1-1 인사말 */
     .greeting {margin: 20px 0;}
     .top_cont {height: 26rem;}
@@ -659,8 +661,19 @@ footer .select:hover::after {color: #fff;}
     /* sub4-1_오시는길_시작 */
     .add-box {font-size: 14px;}
     .tit_1 {width: 30%; text-align: center; line-height: 63px; margin-left: 0%; margin-right:0%; }
-    .tit_2 {width: 70%; text-align: left; margin-right: 0%;
+    .tit_2 {width: 70%; text-align: left; margin-right: 0%;}
     /* sub4-1_오시는길_끝 */
+    
+    /* sub1-2_회사연혁_시작 */
+    .history > .head > ul > li {width: 100%; border-left-width: 0px; border-right-width: 0; margin-left: 0px; border-bottom: 1px solid #fff;}
+    .history > .head > ul > li > a {padding: 15px 10px; font-size: 16px;}
+    .history .content {width: 100%; margin: 50px auto;}
+    .history .content ul {width: 100%; }
+    .history .content ul li div {width: 30%;margin: 0 auto;}    
+    .history .content table {width: 100%; margin: 50px 0 50px;}
+    /* sub1-2_회사연혁_끝 */
+        
+        
         
 
 }
@@ -710,7 +723,7 @@ footer .select:hover::after {color: #fff;}
     
     /* sub_banner */
     .sub_banner .img-box {margin-left: -90%;}
-    .sub_banner .businese_txt {top: 60%;}
+    .sub_banner .businese_txt {top: 60%; font-size: 1.4rem;}
     
     /******sub-width******/
     .cont_area {padding: 0 20px; margin: 0 auto 0px;}
@@ -734,6 +747,7 @@ footer .select:hover::after {color: #fff;}
     .tit_2 {width: 100%; text-align: left; margin-right: 0%; text-align: center; word-break: keep-all;}
     .map{margin: 10px 0 100px;}
     /* sub4-1_오시는길_끝 */
+    
     
 }
 
