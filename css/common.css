@@ -293,7 +293,8 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 } 
 
 /******   sub-root   ******/
-.sub-root{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;background: #fff;}
+.sub-root{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;background: #fff; overflow: hidden;}
+.sub-root:hover {overflow: visible;}
 .sub-root .root {width:100%; max-width: 1400px; margin: 0 auto; height: 45px; line-height: 45px;}
 .sub-root .root > ul > li{display: inline-block; width: 130px; line-height: 45px; border-right: 1px solid #dcdcdc; text-align: center; cursor: pointer;}
 .sub-root .root > ul > li > * {line-height: 1;}
@@ -303,7 +304,7 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 /******   2차메뉴   ******/
 .sub-root .root > ul > li.dropdown {position: relative; }
 .sub-root .root > ul > li ul.dropdown-menu{position: absolute; top:103%;; left: -1px; width: 102%; z-index: 100; opacity: 0; transition: opacity .3s;}
-.sub-root .root > ul > li ul.dropdown-menu.on {opacity: 1;}
+.sub-root .root > ul > li ul.dropdown-menu.on {opacity: 1; }
 .sub-root .root > ul > li ul.dropdown-menu > li {width:100%; background: #fff;}
 .sub-root .root > ul > li ul.dropdown-menu > li > a {display: block; width:100%; padding: 5px 20px; border: 1px solid #dcdcdc; border-top: 0px solid #dcdcdc; background: #fff;}
 .sub-root .root > ul > li ul.dropdown-menu > li > a:hover {background-color:#0c355e ;color:#fff;}
@@ -337,15 +338,28 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 /* 탭메뉴 */
 .history {width: 100%; margin-top: 30px;}
-.history > .head > ul > li {width: 33.333%; box-sizing: border-box; border: 1px solid #c4c4c4; border-bottom: 2px solid #777; border-left-width: 0; border-right-width: 0;}
-.history > .head > ul > li { border-left-width: 1px;}
-.history > .head > ul > li:last-child { margin-left: -2px; border-right-width: 1px;}
-.history > .head > ul > li.active {border: 2px solid #777; border-bottom: 0; background: #fff; color: #222; font-weight: bold;}
-.history > .head > ul > li > a { display: block; padding: 20px 10px; text-align: center;}
+.history > .head > ul > li {width: 33.333%; box-sizing: border-box; border-left-width: 1px; border-right-width: 0; margin-left: -2px; background: #e8e8e8; border-left: 1px solid #fff; border-right: 1px solid #fff;  text-align: center;}
 
+.history > .head > ul > li.active {background: #0c355e; color: #fff; font-weight: bold; border-left-width: 0; border-right-width: 0;}
+.history > .head > ul > li > a { display: block; padding: 20px 10px; text-align: center; font-size: 18px;}
 
+/* content */
+.history .content {position: relative; margin: 60px 0 80px;}
+.history .content ul li div {width: 40%; margin: 0 auto;}
+.history .content ul li p {text-align: center;}
+.history .content .tab-cont {display: none; margin: 0 auto;}
+.history .content .tab-cont.active {display: block;}
+.history .content ul {float: left; width: 50%}
+.history .content table {float: left; width: 50%; }
+.history table{float:right;width:520px}
+.history th,.history table td{padding:12px 0 11px;border-top:1px solid #e8e8e8}
+.history tr:first-child th,.history table tr:first-child td{border-top:none}
+.history th{font-size:15px;font-weight:normal;color:#172c52;vertical-align:top}
+.history th.mon{padding-left:2px;font-size:12px}
+.history td{line-height:20px;color:#92979e}
+.history_open{display:inline-block;margin:45px 0 0 5px;outline:none}
 
-
+/****** sub1-2_회사연혁_끝 ******/
 
 
 
