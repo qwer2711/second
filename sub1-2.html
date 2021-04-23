@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SECONDGROUND</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- 아울 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- XEicon 아이콘 불러오기 -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <header>
+            <div class="header_wrap clearfix" id="head_wrap">
+                <h1><a href="index.html" class="logo-navy img-box"><img src="./images/logo_navy.png" alt=""></a></h1>
+                <nav>
+                    <ul class="clearfix" id="gnb">
+                        <li><a href="sub1-1.html">회사소개</a>
+                            <ul>
+                                <li><a href="sub1-1.html">인사말</a></li>
+                                <li><a href="sub1-2.html">히스토리</a></li>
+                                <li><a href="sub1-3.html">조직도</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub2-1.html">제품소개</a>
+                            <ul>
+                                <li><a href="sub2-1.html">박빙 솔루션</a></li>
+                                <li><a href="sub2-2.html">테코드 시스템</a></li>
+                                <li><a href="sub2-3.html">WEB&APP</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="sub3-1.html">커뮤니티</a>
+                            <ul>
+                                <li><a href="sub3-1.html">갤러리</a></li>
+                                <li><a href="sub3-2.html">뉴스소식</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub4-1.html">오시는길</a>
+                            <ul>
+                                <li><a href="sub4-1.html">오시는길</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+                <div id="head_back"></div>
+                <ul class="info cell-right clearfix">
+                    <li class="cell"><a href="" class=""><img src="./images/bacvinghome.png" alt=""></a></li>
+                    <li class="cell"><a href="" class=""><i class="fab fa-youtube"></i></a></li>
+                    <li class="cell"><a href="" class=""><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="cell"><a href="" class=""><i class="fab fa-blogger"></i></a></li>
+                </ul>
+            </div>
+            <div id="m_header">
+                <div class="top_menu">
+                    <div class="top_inner">
+                        <a href="index.html">
+                            <img src="./images/logo_navy.png" alt="logo" class="m_logo"></a>
+                        <div id="hamburger_wrapper">
+                            <div id="hamburger_menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="allMenu">
+                    <h4>메뉴</h4>
+                    <div class="m_gnb">
+                        <div class="sideNav">
+                            <ul class="depth1">
+                                <li class="depth1_list has-sub"><a href="#">회사소개<i class="fa fa-chevron-down right--icon"></i><i class="fa fa-chevron-down right--icon"></i></a>
+                                    <ul class="depth2">
+                                        <li class="depth1_list"><a href="sub1-1.html">인사말</a></li>
+                                        <li class="depth1_list"><a href="sub1-2.html">히스토리</a></li>
+                                        <li class="depth1_list"><a href="sub1-3.html">조직도</a></li>
+                                        <li class="depth1_list"><a href="sub1-4.html">오시는길</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-sub"><a href="#">제품소개<i class="fa fa-chevron-down right--icon"></i></a>
+                                    <ul class="depth2">
+                                        <li class="has-sub"><a href="sub2-1.html">박빙솔루션<i class="fa fa-chevron-down right--icon-sub"></i></a>
+                                        <li class="has-sub"><a href="sub2-2.html">테코드시스템<i class="fa fa-chevron-down right--icon-sub"></i></a>
+                                        <li class="has-sub"><a href="sub2-3.html">WEB&APP<i class="fa fa-chevron-down right--icon-sub"></i></a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-sub"><a href="#">커뮤니티<i class="fa fa-chevron-down right--icon"></i></a>
+                                    <ul class="depth2">
+                                        <li><a href="sub3-1.html">갤러리</a>
+                                        </li>
+                                         <li><a href="sub3-2.html">뉴스소식</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-sub"><a href="#">오시는길<i class="fa fa-chevron-down right--icon"></i></a>
+                                    <ul class="depth2">
+                                        <li><a href="sub4-1.html">오시는길</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="side-sns">
+
+                        <ul class="info clearfix">
+                            <li class="cell"><a href="" class=""><img src="./images/bacvinghome.png" alt=""></a></li>
+                            <li class="cell"><a href="" class=""><i class="fab fa-youtube"></i></a></li>
+                            <li class="cell"><a href="" class=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li class="cell"><a href="" class=""><i class="fab fa-blogger"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="side_footer">
+                        <a href="privacy_1.html" class="footer_menu_item">개인정보처리방침</a>
+                        <a href="privacy_2.html" class="footer_menu_item">이용약관</a>
+                        <a href="privacy_3.html" class="footer_menu_item">이메일무단수집거부</a>
+                        <!-- <a href="admin.html" class="footer_menu_item">관리자모드</a> -->
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+        </header>
+
+       
+        <div class="container">
+
+        <!--  서브배너   -->
+            <div class="sub_banner">
+                <img src="./images/address.jpg.png" alt="">
+                <div class="businese_txt">오시는길</div>
+            </div>
+            <div class="sub-root">
+              <div class="root">
+                      <ul class="clearfix">
+                          <li class="cell"><a href="index.html"><i class="fas fa-home"></i></a></li>
+                          <li class="dropdown cell">
+                            오시는길 <span class="caret"></span>
+                             <ul class="dropdown-menu" role="menu">
+                                  <li><a href="sub2-1.html">제품소개</a></li>
+                                  <li><a href="sub3-1.html">커뮤니티</a></li>
+                                  <li><a href="sub4-1.html">오시는길</a></li>
+                              </ul></li>
+                          <li class="dropdown cell">
+                             오시는길 <span class="caret"></span>
+                              <ul class="dropdown-menu" role="menu">
+                                  <li><a href="">오시는길</a></li>
+                              </ul> 
+                          </li>
+                      </ul>
+
+              </div>
+
+          </div>
+            
+            
+
+            <div class="cont_area">
+
+                <div class="address">
+
+                    <!--  타이틀   -->
+                    <h1 class="sub_tit"><i class="fas fa-map-marker-alt" style="margin-right:10px; color:#1f54b7;"></i>Contact Us</h1>
+                    <div class="map" style="width: 100%; margin: 50px 0 100px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3211.3022264330416!2d127.39788341556506!3d36.4018824977185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565361e6acd9461%3A0xed62af6e22541ab0!2zS1Qg64yA642V7KCcMuyXsOq1rOyEvO2EsA!5e0!3m2!1sko!2skr!4v1619145370835!5m2!1sko!2skr" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <div class="add-box clearfix">
+                        <div class="tit_1 cell">(주)세컨그라운드</div>
+                        <div class="tit_2 cell">
+                            <p>대전 유성구 유성대로1689번길 70 (전민동, KT대덕연구센터) 3동 304호</p>
+                            <p>TEL.070-4848-3443</p>
+                            <p>E-MAIL.iigound@iiground.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer_container">
+                <div class="footer-gnb-container">
+                    <div class="footer-gnb">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="sub1-1.html">이용안내</a>
+                            </li>
+                            <li>
+                                <a href="sub2-1.html">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="sub3-1.html">개인정보취급방침</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="info-wrap">
+                        <div class="info">
+                            <p class="department">(주)세컨그라운드</p>
+                            <p class="content">대전광역시 유성구 유성대로 1689번길 70 KT대덕2연구센터 304호</p>
+                        </div>
+                        <div class="info">
+                            <p class="department">일정 조정</p>
+                            <p class="content">홍길동(010-0000-0000)</p>
+                        </div>
+                      
+                    </div>
+                   
+                    <div class="select">
+                        <select onchange="if(this.value) window.open(this.value);">
+                            <option selected="" disabled="">Family Site</option>
+                            <option value="www.bacving.com">박빙닷컴</option>
+                            <option value="www.secondground.net">세컨그라운드</option>
+                        </select>
+                    </div>
+                    <div class="foot-logo">
+                        <a href="#" class=" img-box"><img src="./images/second_logo_2.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="foot">
+                <div class="footWrap">
+                    <address>
+                        <span class="copy">
+                            Copyright © 2021 (주)세컨그라운드 Co.,Inc. ALL RIGHTS RESERVED
+                        </span>
+                    </address>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>
