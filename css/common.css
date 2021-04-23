@@ -576,7 +576,7 @@ footer .select:hover::after {color: #fff;}
 
     
     /* main02 */
-    .main02 {height: 550px;}
+    .main02 {height: auto;}
     .main02 dd img {width: 100%;}
     .main02 strong {font-size: 40px;}
     /* main03 */
