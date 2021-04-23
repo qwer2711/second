@@ -1,6 +1,6 @@
 $(document).ready(function () {
     
-        /*3depth 메뉴*/
+   //모바일메뉴
     $(function () {
        // 태블릿, 모바일 토글메뉴효과
             function slideMenu() {
@@ -49,8 +49,7 @@ $(document).ready(function () {
             // $('.sideNav>ul>li>ul>li>ul>li.has-sub>a').prepend('<i class="fa fa-plus left--icon"></i><i class="fa fa-minus left--icon"></i>'); // 아이콘 사용시
             });
     
-    
-    $(function () {
+        $(function () {
         $('#head_wrap').mouseenter(function () {
             $('#head_back').addClass('active');
             $('#head_wrap').addClass('active');
@@ -62,7 +61,8 @@ $(document).ready(function () {
             $('#head_wrap').removeClass('active');
             $('#gnb').removeClass('active');
         });
-
+        
+        // main02,main03_애니메이션
         $(window).scroll(function () {
             if ($(this).scrollTop() > 500) {
                 $('.main02 .cell').css('transform','translate(0, 0)');
@@ -79,6 +79,7 @@ $(document).ready(function () {
                      
         });
         
+        // index_사업모델
         $('.swiper-wrapper li').mouseenter(function () {
             var $main = $(this).closest('.main04');
             var $current = $main.find('>.swiper-wrapper >.swiper-slide.on');
@@ -97,9 +98,22 @@ $(document).ready(function () {
         
         
     })
-    
+    // submenu-dropdown
      $('.dropdown').click(function(){
          $(this).children('.dropdown-menu').toggleClass('on');
+});
+    
+    // sub1-2 회사연혁
+    $('.history > .head > ul > li').click(function () {
+    var $this = $(this);
+    var $current = $('.history > .head > ul > li.active');
+    $current.removeClass('active');
+    $this.addClass('active');
+
+    var index = $this.index();
+    var $part5 = $this.closest('.history');
+    $part5.find('>.content>div.active').removeClass('active');
+    $part5.find('>.content>div').eq(index).addClass('active');
 });
 
 });

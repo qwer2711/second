@@ -311,10 +311,10 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 
 
-/******sub-width******/
+/****** sub-width ******/
 .cont_area {max-width:1400px; margin: 0 auto 50px;}
 
-/* sub1-1_인사말 */
+/****** sub1-1_인사말 ******/
 .greeting {margin: 50px 0;}
 .top_cont {position: relative; height: 39rem;}
 .top_cont .greeting_tit {font-size: 3.1rem; font-weight: 600; color: #09223b; line-height: 5.5rem; letter-spacing: -.05em;}
@@ -328,7 +328,57 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .txt_box .greeting_txt_1 {margin-top: 30px; border-top:1px solid #dcdcdc; padding-top: 50px;}
 .last span {font-size: 22px; font-weight: 600; line-height: 100px; margin-right: 10px; color: #454545;}
 .last img {width: 150px;}
-/* sub1-1_인사말_끝 */
+/****** sub1-1_인사말 끝 ******/
+
+
+
+
+/****** sub1-2_회사연혁 ******/
+
+/* 탭메뉴 */
+.history {width: 100%; margin-top: 30px;}
+.history > .head > ul > li {width: 33.333%; box-sizing: border-box; border: 1px solid #c4c4c4; border-bottom: 2px solid #777; border-left-width: 0; border-right-width: 0;}
+.history > .head > ul > li { border-left-width: 1px;}
+.history > .head > ul > li:last-child { margin-left: -2px; border-right-width: 1px;}
+.history > .head > ul > li.active {border: 2px solid #777; border-bottom: 0; background: #fff; color: #222; font-weight: bold;}
+.history > .head > ul > li > a { display: block; padding: 20px 10px; text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -340,6 +390,9 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .tit_1 {width: 10%; text-align: center; line-height: 63px; margin-left: 25%; margin-right: 2.5%; }
 .tit_2 {width: 40%; text-align: left; margin-right: 22.5%;}
 /* sub4-1_오시는길_끝 */
+
+
+
 
 
 
