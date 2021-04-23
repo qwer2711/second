@@ -296,10 +296,12 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .sub-root{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;background: #fff; overflow: hidden;}
 .sub-root:hover {overflow: visible;}
 .sub-root .root {width:100%; max-width: 1400px; margin: 0 auto; height: 45px; line-height: 45px;}
-.sub-root .root > ul > li{display: inline-block; width: 130px; line-height: 45px; border-right: 1px solid #dcdcdc; text-align: center; cursor: pointer;}
+.sub-root .root > ul > li{display: inline-block; width: 130px; line-height: 45px; border-right: 1px solid #dcdcdc; text-align: center;}
 .sub-root .root > ul > li > * {line-height: 1;}
 .sub-root .root > ul > li > a {padding: 10px;}
 .sub-root .root > ul > li:nth-child(1){width:60px; text-align: center;}
+.sub-root .root > ul > li:nth-child(3){cursor: pointer;}
+
 .sub-root .root > ul > li .caret {display: inline-block; width: 0; height: 0; margin-left: 5px; vertical-align: middle; border-top: 4px solid; border-right: 4px solid transparent; border-left: 4px solid transparent;}
 /******   2차메뉴   ******/
 .sub-root .root > ul > li.dropdown {position: relative; }
