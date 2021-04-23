@@ -602,7 +602,7 @@ footer .select:hover::after {color: #fff;}
     .main06 .partner-list {width: 100%;}
     .main06 .partner-list ul li {width: calc(50% - 20px);height: auto;}
     
-    .cont_area {max-width:370px; margin: 0 auto 30px;}
+    .cont_area {max-width:370px; margin: 0 auto 30px; padding: 20px;}
      /* sub1-1인사말_시작 */
     .txt_box {padding: 90px 0px 0px;}
     .quote:after, .greeting .quote:before {width: 1.5rem; height: 1rem;}
@@ -610,7 +610,7 @@ footer .select:hover::after {color: #fff;}
     .quote {width:75%; margin: 5rem 0 0 3rem ; font-size: 15px; line-height: 2rem; text-indent: -1.6rem; word-break: keep-all;}
     .top_cont .img-greeting {width: 80%;}
     .top_cont {height: 18rem;}
-    .greeting_txt {font-size: 15px; text-align: left; line-height: 30px;}
+    .txt_box .greeting_txt {font-size: 13px; text-align: center; line-height: 30px;}
     /* sub1-1인사말_끝 */
     
     /* sub4-1_오시는길_시작 */
