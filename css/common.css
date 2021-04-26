@@ -609,7 +609,7 @@ footer .select:hover::after {color: #fff;}
     
     /* sub3-1갤러리 */
     /*동영상*/
-    .iframe-box {margin-top: 50px; width: 100%; height: 650px;}
+    .iframe-box {height: 650px;}
     .iframe-box iframe {width: 100%; height: 100%;}
     
     
@@ -640,8 +640,7 @@ footer .select:hover::after {color: #fff;}
     
     /* sub3-1갤러리 */
     /*동영상*/
-    .iframe-box {margin-top: 50px; width: 100%; height: 480px;}
-    .iframe-box iframe {width: 100%; height: 100%;}
+    .iframe-box {height: 480px;}
     
 }
 
@@ -712,8 +711,7 @@ footer .select:hover::after {color: #fff;}
     /* sub3-1갤러리 */
     .galleryList.col3 > ul li { width: 50%; }
     /*동영상*/
-    .iframe-box {margin-top: 50px; width: 100%; height: 380px;}
-    .iframe-box iframe {width: 100%; height: 100%;}
+    .iframe-box {height: 380px;}
     .galleryList > ul > li .title {font-size: 0.95rem;}
 
         
@@ -783,8 +781,8 @@ footer .select:hover::after {color: #fff;}
     
     /* sub3-1_갤러리 */
     /*동영상*/
-    .iframe-box {margin-top: 50px; width: 100%; height: 200px;}
-    .iframe-box iframe {width: 100%; height: 100%;}
+    .iframe-box {height: 200px;}
+
     
     /* sub3-2_뉴스레터 */
     .galleryList > ul > li .gall-img::before {display: none;}
