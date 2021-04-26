@@ -384,10 +384,22 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .galleryList > ul > li > a:hover img { -webkit-transform: scale(1.1); transform: scale(1.1); opacity: .4; }
 
 
+/****** sub3-1_detail ******/
 
+/* 테이블 레이아웃 */
+.gal-table{display:table; border-top:2px solid #0c355e; width:100%; margin-bottom:30px; border-bottom:1px solid #ccc; border-collapse:collapse;letter-spacing: 0;}
+.gal-table th{text-align: center; padding:20px 0px; line-height:1; border-left:1px solid transparent; border-bottom:1px solid #ddd; background:#fafafa;}
+.gal-table td{text-align:left;padding:20px 15px; border-left:1px solid #ddd; border-bottom:1px solid #ddd; margin-left:-1px; word-wrap:break-word; word-break:keep-all; font-weight: 400;}
 
+/* 상단제목 레이아웃 */
+.gal-table th:first-child,
+.gal-table td:first-child{ border-left:0; color:#000;}
+.gal-table th:last-child,
+.gal-table td:last-child{border-right:0}
 
-
+/* 버튼 */
+.BtnArea.right {text-align: right;}
+.BtnArea button {min-width: 5rem; background: #0c355e;color: #fff; padding: .6rem 0; border-radius: 3px;}
 
 
 
