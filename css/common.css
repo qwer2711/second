@@ -368,7 +368,7 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 /* 버튼 */
 .bac_tab {max-width: 800px; margin: 50px auto; height: 50px;}
-.bac_tab .cell {width: 33.333%; text-align: center;}
+.bac_tab .cell {width: 50%; text-align: center;}
 .bac_tab .cell a {display: block; width: 100%; padding: 17px 0; border-top:1px solid #ddd; border-bottom:1px solid #ddd; border-right:1px solid #ddd; }
 .bac_tab .cell:first-child a {border-left: 1px solid #ddd;}
 .bac_tab .cell.active a {background: #0c355e; color: #fff;}
@@ -382,7 +382,7 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .txt_left .adver05_txt > strong { display: block; margin-bottom: 10px; font-size: 22px; color: #f44336;  letter-spacing: -2px;}
 .txt_left .adver05_txt > h2 {font-size: 40px; font-weight: 600;}
 .txt_left .adver05_txt > p {font-size: 20px; line-height: 1.6; font-weight: 300; color: #666; margin-top: 7px;}
-
+.bacving_01 .adver05_txt button {margin-top: 20px; background: #0c355e;color: #fff; padding: 1.1rem 3rem; border-radius: 3px; font-size: 16px;}
 /* bkacving_02 */
 .bacving_02 {max-width: 1400px; margin: 50px auto 0px; position: relative; width: 100%;}
 .bacving_02 h2 { font-size: 2rem;line-height: 38px; color: #222; font-weight: 500;}
@@ -401,28 +401,32 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .bacving_02 .line-box {height: 100px;}
 .bacving_02 .line {margin: 0 auto; width: 5px; height: 0px; animation: line 1.3s ease-in infinite; background: #ffcd4a;}
 .bac_list {border-bottom: 1px solid #ddd; }
-.bac_list .cell:first-child {width: 40%;}
+.bac_list .cell:first-child {width: 50%;}
 .bac_list .cell .img-box {width: 100%;}
-.bac_list .cell:last-child {width: 60%;}
-.bac_list .txt {padding: 10rem 3rem 5rem;}
-.bac_list:nth-of-type(2n) .cell:first-child {width: 60%;}
-.bac_list:nth-of-type(2n) .cell:last-child {width: 40%;}
+.bac_list .cell:last-child {width: 50%;}
+.bac_list .r-txt .pd{padding: 8rem 0 0 0; }
+.bac_list .l-txt .pd{padding: 8rem 0 0 0; }
 .bac_list .txt p {font-size: 1.8rem; line-height: 38px; color: #333; font-weight: 500;}
 .bac_list .txt span {padding-top: 20px; font-size: 1.2rem; line-height: 30px; color: #636363; display: block;}
+.bacving_02 button {margin-top: 20px; background: #0c355e;color: #fff; padding: 1.1rem 3rem; border-radius: 3px; font-size: 16px;}
 /* bkacving_03 */
 .bacving_03 h2 { font-size: 2rem;line-height: 38px; color: #222; font-weight: 500;}
 .bacving_03 {position: relative; width: 100%; background: #f0f0f0; padding: 30px;}
 .bacving_03 .iframe-box {max-width: 900px; width: 100%; margin: 50px auto; height: 550px;}
 .bacving_03 .iframe-box iframe {width:100%; height: 100%;}
-/* bkacving_04 */
 
+/* Tecord System */
 .tecord_03 { background: #fff;}
-
 .bacving_04 {position: relative; width: 100%; background: #f0f0f0; padding: 30px;}
 .bacving_04 h2 { font-size: 2rem; line-height: 38px; color: #222; font-weight: 500;}.bacving_04 h2 { font-size: 2rem; line-height: 38px; color: #222; font-weight: 500;}
 
-.bacving_04 ul {max-width: 1400px; margin: 0 auto; width: 100%;}
-.bacving_04 ul li {float: left; width: 20%; padding: 6rem; border:1px solid red; text-align: center;}
+.bacving_04 ul {max-width: 1400px; margin: 50px auto; width: 100%;}
+.bacving_04 ul li {float: left; width: calc(25% - 10px); margin-right: 10px; margin-bottom: 10px; padding: 3rem 2rem; border:1px solid #ddd; text-align: center; background:#fff; border-radius: 3px; font-size: 1.3rem; color: #3566d6; font-weight: 500; height: 290px;}
+.bacving_04 ul li:hover {box-shadow: 3px 3px 5px 1px rgba(28, 95, 162, 0.15);}
+.bacving_04 ul li > div {margin-bottom: 10px;}
+.bacving_04 ul li p {color: #000; font-weight: 500; font-size: 14px; word-break: keep-all; margin-top: 10px;}
+.bacving_04 ul li img {width: 40px;}
+
 
 /****** sub3-1_갤러리 ******/
 
@@ -658,6 +662,23 @@ footer .select:hover::after {color: #fff;}
     .tit_1 {width: 20%; text-align: center; line-height: 63px; margin-left: 10%; margin-right:2.5%; }
     .tit_2 {width: 60%; text-align: left; margin-right: 7.5%;}
     
+    /* sub2-1_박빙시스템 */
+    .bacving_01 .txt_left {top: 10%; left: 5%;}
+    .bacving_01 .txt_left .adver05_txt {width: 40%;}
+    .bacving_01 .txt_left .adver05_txt > h2 {font-size: 35px;}
+    .bacving_01 .txt_left .adver05_txt > p {font-size: 16px;}
+    
+    /* bkacving_02 */
+    .bac_list .cell:first-child {width: 50%;}
+    .bac_list .cell:last-child {width: 50%;}
+    .bac_list .r-txt .pd{padding: 6rem 8rem 0 0; }
+    .bac_list .l-txt .pd{padding: 6rem 0 0 8rem; }
+    /* tecord system */
+    .bacving_04 ul li {width: calc(33.333% - 10px);}
+    
+
+
+    
     /* sub3-1갤러리 */
     /*동영상*/
     .gall-detail .iframe-box {height: 650px;}
@@ -688,6 +709,18 @@ footer .select:hover::after {color: #fff;}
     .quote {width: 20rem; margin: 6rem 0 0 3rem; font-size: 1.2rem; line-height: 2.833rem; text-indent: -2.666rem;}
     .top_cont .greeting_tit {font-size: 35px; line-height: 4.5rem;}
     .quote:after, .greeting .quote:before {width: 2rem; height: 1.34rem;}
+    
+    
+     /* bkacving_02 */
+    .bac_list .cell:first-child {width: 50%;}
+    .bac_list .cell:last-child {width: 50%;}
+    .bac_list .txt p {font-size: 1.5rem;}
+    .bac_list .txt span {font-size: 1.1rem; padding-top: 5px;}
+    .bac_list .r-txt .pd{padding: 2.5rem 8rem 0 0; }
+    .bac_list .l-txt .pd{padding: 2.5rem 0 0 8rem; }
+    
+    .bacving_02 button {margin-top: 15px; padding: 0.8rem 1.5rem;}
+   
     
     /* sub3-1갤러리 */
     /*동영상*/
@@ -760,7 +793,39 @@ footer .select:hover::after {color: #fff;}
     .history .content table {width: 100%; margin: 50px 0 50px;}
     .history > .head > ul > li:first-child {border-top-left-radius: 0px;border-bottom-left-radius: 0px;}
     .history > .head > ul > li:last-child {border-top-right-radius: 0px;border-bottom-right-radius: 0px;}
+    
+    
+    
+    /* sub3-1_박빙솔루션 */
+    
+    /* bkacving_01 */
+    .bacving_01 .txt_left {top: 55%; left: 15%; }
+    .bacving_01 .txt_left .adver05_txt {width: 70%; text-align: center;}
+    .bac_tab .cell:first-child a {border-top-left-radius: 0px; border-bottom-left-radius: 0px;}
+    .bac_tab .cell:last-child a {border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
+    .bacving_01 .txt_left .adver05_txt > h2 {font-size: 25px;}
+    .txt_left .adver05_txt > strong {font-size: 18px;}
+    .bacving_01 .txt_left .adver05_txt > p {font-size: 14px;}
 
+    /* bkacving_02 */
+    .bacving_02 h2 {font-size: 1.5rem;}
+    .bacving_03 h2 {font-size: 1.5rem;}
+    .bacving_04 h2 {font-size: 1.5rem;}
+    .bac_list {height: 300px;}
+    .bac_list .cell:first-child {width: 50%;}
+    .bac_list .cell:last-child {width: 50%;}
+    .bac_list .txt p {font-size: 1.2rem;}
+    .bac_list .txt span {display: none;}
+    .bac_list .r-txt .pd{padding: 5rem 5rem 0rem 0;}
+    .bac_list .r-txt .pd .pdpd {padding-top: 3rem;}
+    .bac_list .l-txt .pd{padding: 7rem 0 0 5rem; }
+    
+    .bacving_02 button {margin-top: 15px; padding: 0.8rem 1.5rem;}
+    
+    
+    /* 소개영상 */
+    .bacving_03 .iframe-box {height: 350px;}
+    
     
     /* sub3-1갤러리 */
     .galleryList.col3 > ul li { width: 50%; }
@@ -832,6 +897,45 @@ footer .select:hover::after {color: #fff;}
     .top_cont .img-greeting {width: 80%;}
     .top_cont {height: 18rem;}
     .txt_box .greeting_txt {font-size: 13px; text-align: center; line-height: 30px;}
+    
+    
+    
+     
+    /* sub3-1_박빙솔루션 */
+    
+    /* bkacving_01 */
+
+    .bacving_01 .txt_left {top: 40%; left: 15%; }
+    .bac_0 .txt_left {top: 45%; left: 15%; }
+    .bacving_01 .txt_left .adver05_txt {width: 70%; text-align: center;}
+    .bacving_01 .txt_left .adver05_txt > h2 {font-size: 25px;}
+    .txt_left .adver05_txt > strong {font-size: 18px;}
+    .bacving_01 .txt_left .adver05_txt > p {font-size: 14px;}
+    .bac_tab .cell:first-child a {border-top-left-radius: 0px; border-bottom-left-radius: 0px;}
+    .bac_tab .cell:last-child a {border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
+    .bacving_01 .adver05_txt button {padding: 0.8rem 2rem; font-size: 14px;}
+
+    /* bkacving_02 */
+    .bacving_02 {margin: 0px auto 0px;  }
+    .bac_list {height: 430px;}
+    .list-last {height: 520px;}
+    .bac_list .cell:first-child {width: 100%;}
+    .bac_list .cell:last-child {width: 100%;}
+    .bac_list .txt {text-align: center;}
+    .bac_list .txt p {font-size: 1.2rem;}
+    .bac_list .txt span {display: none;}
+    .bac_list .r-txt .pd{padding: 1.5rem 0rem 0rem 0;}
+    .bac_list .r-txt .pd .pdpd {padding-top: 0rem;}
+    .bac_list .l-txt .pd{padding: 1.5rem 0 0 0rem; }
+    .bacving_02 button {margin-top: 15px; padding: 0.8rem 1.5rem;}
+    
+    /* bkacving_04 */
+    .bacving_04 ul li {width: calc(100% - 10px);}
+    /* 소개영상 */
+    .bacving_03 .iframe-box {height: 350px;}
+    
+    
+    
     
     /* sub3-1_갤러리 */
     /*동영상*/
