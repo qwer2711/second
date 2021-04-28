@@ -364,6 +364,17 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .history_open{display:inline-block;margin:45px 0 0 5px;outline:none}
 
 
+
+/****** sub1-3_조직도 ******/
+.team {margin: 100px auto;}
+.team .title {font-size: 2rem; font-weight: bold; margin-bottom: 20px;}
+.team p{text-align: center; font-size: 16px; margin-bottom: 50px;}
+.team .img-box {max-width: 980px; margin: 0 auto;}
+.team .img-box img {width: 100%; display:block;}
+/* sub1-3_조직도_끝 */
+
+
+
 /****** sub2-1_박빙솔루션 ******/
 
 /* 버튼 */
@@ -794,7 +805,13 @@ footer .select:hover::after {color: #fff;}
     .history > .head > ul > li:first-child {border-top-left-radius: 0px;border-bottom-left-radius: 0px;}
     .history > .head > ul > li:last-child {border-top-right-radius: 0px;border-bottom-right-radius: 0px;}
     
-    
+    /****** sub1-3_조직도 ******/
+    .team {margin: 100px auto;}
+    .team .title {font-size: 2rem; font-weight: bold; margin-bottom: 20px;}
+    .team p{text-align: center; font-size: 16px; margin-bottom: 50px;}
+    .team .img-box {max-width: 980px; width: 100%; margin: 0 auto;}
+    .team .img-box img {width: 100%; display:block;}
+    /* sub1-3_조직도_끝 */
     
     /* sub3-1_박빙솔루션 */
     
@@ -898,8 +915,15 @@ footer .select:hover::after {color: #fff;}
     .top_cont {height: 18rem;}
     .txt_box .greeting_txt {font-size: 13px; text-align: center; line-height: 30px;}
     
-    
-    
+    /****** sub1-3_조직도 ******/
+    .team {margin: 100px auto;}
+    .team .title {font-size: 1.8rem; font-weight: bold; margin-bottom: 20px;}
+    .team p{text-align: center; font-size: 14px; margin-bottom: 50px;}
+    .team .cont{ padding: 0 65px;}
+    .team .img-box {max-width: 250px; margin: 0 auto;}
+    .team .img-box img {width: 100%; display:block;}
+    /* sub1-3_조직도_끝 */
+
      
     /* sub3-1_박빙솔루션 */
     
