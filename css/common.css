@@ -420,6 +420,10 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .bac_list .txt p {font-size: 1.8rem; line-height: 38px; color: #333; font-weight: 500;}
 .bac_list .txt span {padding-top: 20px; font-size: 1.2rem; line-height: 30px; color: #636363; display: block;}
 .bacving_02 button {margin-top: 20px; background: #0c355e;color: #fff; padding: 1.1rem 3rem; border-radius: 3px; font-size: 16px;}
+
+
+
+
 /* bkacving_03 */
 .bacving_03 h2 { font-size: 2rem;line-height: 38px; color: #222; font-weight: 500;}
 .bacving_03 {position: relative; width: 100%; background: #f0f0f0; padding: 30px;}
@@ -816,19 +820,20 @@ footer .select:hover::after {color: #fff;}
     /* sub3-1_박빙솔루션 */
     
     /* bkacving_01 */
-    .bacving_01 .txt_left {top: 55%; left: 15%; }
+    .bacving_01 .txt_left {top: 50%; left: 15%; }
+    .bac_0 .txt_left {top: 55%; left: 15%; }
     .bacving_01 .txt_left .adver05_txt {width: 70%; text-align: center;}
     .bac_tab .cell:first-child a {border-top-left-radius: 0px; border-bottom-left-radius: 0px;}
     .bac_tab .cell:last-child a {border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
     .bacving_01 .txt_left .adver05_txt > h2 {font-size: 25px;}
     .txt_left .adver05_txt > strong {font-size: 18px;}
-    .bacving_01 .txt_left .adver05_txt > p {font-size: 14px;}
+    .bacving_01 .txt_left .adver05_txt > p {font-size: 14px; padding: 0 60px; word-break: keep-all;}
 
     /* bkacving_02 */
     .bacving_02 h2 {font-size: 1.5rem;}
     .bacving_03 h2 {font-size: 1.5rem;}
     .bacving_04 h2 {font-size: 1.5rem;}
-    .bac_list {height: 300px;}
+    .bac_list {height: 320px;}
     .bac_list .cell:first-child {width: 50%;}
     .bac_list .cell:last-child {width: 50%;}
     .bac_list .txt p {font-size: 1.2rem;}
@@ -923,25 +928,25 @@ footer .select:hover::after {color: #fff;}
     .team .img-box {max-width: 250px; margin: 0 auto;}
     .team .img-box img {width: 100%; display:block;}
     /* sub1-3_조직도_끝 */
-
+ 
      
     /* sub3-1_박빙솔루션 */
     
     /* bkacving_01 */
 
-    .bacving_01 .txt_left {top: 40%; left: 15%; }
+    .bacving_01 .txt_left {top: 35%; left: 15%; }
     .bac_0 .txt_left {top: 45%; left: 15%; }
     .bacving_01 .txt_left .adver05_txt {width: 70%; text-align: center;}
-    .bacving_01 .txt_left .adver05_txt > h2 {font-size: 25px;}
+    .bacving_01 .txt_left .adver05_txt > h2 {font-size: 1.4rem;}
     .txt_left .adver05_txt > strong {font-size: 18px;}
-    .bacving_01 .txt_left .adver05_txt > p {font-size: 14px;}
+    .bacving_01 .txt_left .adver05_txt > p {font-size: 14px; padding: 10px;}
     .bac_tab .cell:first-child a {border-top-left-radius: 0px; border-bottom-left-radius: 0px;}
     .bac_tab .cell:last-child a {border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
     .bacving_01 .adver05_txt button {padding: 0.8rem 2rem; font-size: 14px;}
 
     /* bkacving_02 */
     .bacving_02 {margin: 0px auto 0px;  }
-    .bac_list {height: 430px;}
+    .bac_list {height: 455px;}
     .list-last {height: 520px;}
     .bac_list .cell:first-child {width: 100%;}
     .bac_list .cell:last-child {width: 100%;}
