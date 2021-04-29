@@ -506,8 +506,10 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .tit_2 {width: 40%; text-align: left; margin-right: 22.5%;}
 
 
+/* 이용안내 */
 
-
+.policy {max-width: 1400px; margin: 0 auto; height: 100%; padding: 100px 0;}
+.policy h1 {border-bottom: 1px solid #ddd; padding-bottom: 20px;}
 
 
 /**********  footer  ***********/
@@ -854,7 +856,11 @@ footer .select:hover::after {color: #fff;}
     .gall-detail .iframe-box {height: 380px;}
     .galleryList > ul > li .title {font-size: 0.95rem;}
 
-        
+    /* 이용안내 */
+
+    .policy {padding: 60px 20px;}
+    .policy h1 {font-size: 25px;}
+    
         
         
 
@@ -934,10 +940,10 @@ footer .select:hover::after {color: #fff;}
     /* bkacving_01 */
 
     .bacving_01 .txt_left {top: 35%; left: 15%; }
-    .bac_0 .txt_left {top: 45%; left: 15%; }
+    .bac_0 .txt_left {top: 35%; left: 15%; }
     .bacving_01 .txt_left .adver05_txt {width: 70%; text-align: center;}
     .bacving_01 .txt_left .adver05_txt > h2 {font-size: 1.4rem;}
-    .txt_left .adver05_txt > strong {font-size: 18px;}
+    .txt_left .adver05_txt > strong {font-size: 1rem;}
     .bacving_01 .txt_left .adver05_txt > p {font-size: 14px; padding: 10px;}
     .bac_tab .cell:first-child a {border-top-left-radius: 0px; border-bottom-left-radius: 0px;}
     .bac_tab .cell:last-child a {border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
@@ -987,7 +993,9 @@ footer .select:hover::after {color: #fff;}
     .map{margin: 10px 0 100px;}
     
     
+    
+
+    
+    
 }
-
-
 
