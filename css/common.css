@@ -625,13 +625,12 @@ footer .select:hover::after {color: #fff;}
     .plus-minus::before {transform:rotate(90deg); -webkit-transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -o-transform:rotate(90deg); transition:all .2s ease-in-out; -webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; -ms-transition:all .2s ease-in-out; -o-transition:all .2s ease-in-out;}
     .sideNav li li li.has-sub.open>a .plus-minus::before {transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg);}
     .allMenu .side-sns {text-align: center;}
-    .allMenu ul.info {display: inline-block; width: 40%; height: 55px; vertical-align: middle; margin-left: 30px; margin-top: 10px;}
-    .allMenu .info li {width:16%; height: 100%; display: table-cell; text-align: center;}
-    .allMenu .info li:first-child{width: 40%;}
-    .allMenu .info li a {display: inline-block; width: 80%; margin-top: 17px;}
+    .allMenu ul.info {display: inline-block; width: 50%; height: 55px; vertical-align: middle; margin-left: 30px; margin-top: 10px;}
+    .allMenu .info li {width:25%; height: 100%; display: table-cell; text-align: center;}
+    .allMenu .info li a {display: inline-block; width: 80%; }
     .allMenu .info li a i {font-size: 25px; color: #9f9e9e;}
     .allMenu .info li a img {width: 100%;}
-
+   
     .allMenu .info li:hover:nth-child(2) a i {color: red;}
     .allMenu .info li:hover:nth-child(3) a i {color: #3a5daa;}
     .allMenu .info li:hover:nth-child(4) a i {color: #33a936;}
