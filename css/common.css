@@ -116,7 +116,7 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 .home_txt .glow-on-hover:after { z-index: -1; content: ''; position: absolute; width: 100%; height: 100%; background: rgba(245, 245, 245, 0.68); left: 0; top: 0; border-radius: 30px; border:1px solid rgba(0, 0, 0, 0.26);}
 
-.home .iconmouse {position: absolute; top:90%; left: 50%; width:100%; transform: translateX(-50%); z-index: 3;}
+.home .iconmouse {position: absolute; top:87%; left: 50%; width:100%; transform: translateX(-50%); z-index: 3;}
 
 @keyframes Mouse_act {
     0% {
@@ -1012,8 +1012,8 @@ footer .select:hover::after {color: #fff;}
 @media all and (max-width:375px){
     
     /* index movie*/
-    .mainmovie .home_txt {top:68%;}
-    .home .iconmouse {top:75%;}
+    .mainmovie .home_txt {top:65%;}
+    .home .iconmouse {top:73%;}
     
     
 }
