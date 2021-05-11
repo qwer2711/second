@@ -930,6 +930,7 @@ footer .select:hover::after {color: #fff;}
     .cont_area {padding: 0 30px; margin: 30px auto 30px;}
     
     /* sub1-1 인사말 */
+    .top_cont .line {width: 3px; height: 30px; margin: 0 auto 0px; background: #093a5e;}
     .top_cont .greeting_tit {font-size: 30px; padding: 0 20px;}
     .quote {width: 70%; margin: 30px auto 10px; font-size: 1rem; line-height: 2.4rem; }
     .txt_box .greeting_txt font {font-size: 20px;}
