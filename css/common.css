@@ -324,11 +324,13 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .quote {position: relative; display: block; width: 50%; margin: 50px auto; font-size: 1.26rem; line-height: 2.833rem;  z-index: 3; font-weight: 400; text-align: center; text-indent: -30px;}
 
 
-.quote:after, .greeting .quote:before {content: ''; display: inline-block; vertical-align: baseline; width: 2rem; height: 1.35rem; background-image: url(../images/bg_quote.png); background-repeat: no-repeat; -webkit-background-size: cover;}
+.top_cont .greeting_tit:after, .top_cont .greeting_tit:before {content: ''; display: inline-block; vertical-align: top; width: 2rem; height: 1.33rem;  background-image: url(../images/bg_quote.png); background-repeat: no-repeat; -webkit-background-size: cover;}
 
 
-.quote:before {transform: translateX(-1rem);-webkit-transform: translateX(-1rem); -moz-transform: translateX(-1rem);}
-.quote:after {-ms-background-position-y: bottom; background-position-y: bottom; transform: translateX(5.2rem);}
+.top_cont .greeting_tit:before {transform: translateX(-1rem);-webkit-transform: translateX(-1rem); -moz-transform: translateX(-1rem);}
+.top_cont .greeting_tit:after {background-position-y: bottom;-webkit-background-position-y: bottom; -moz-background-position-y: bottom; transform: translateX(0.7rem);-webkit-transform: translateX(0.7rem); -moz-transform: translateX(0.7rem); }
+
+
 .txt_box {padding: 0px 0px 50px;}
 .txt_box .greeting_txt {max-width:1170px; margin: 0 auto; font-size: 1.18rem; line-height: 30px; }
 .txt_box .greeting_txt font {font-size: 25px;}
