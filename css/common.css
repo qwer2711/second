@@ -139,10 +139,10 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 .w1280 {width: 100%; max-width: 1280px; margin: 0 auto; position: relative;}
 
-.main02 {height: 550px; position: relative; padding: 110px 0 0 50px; z-index: 10;}
+.main02 {height: 620px; position: relative; padding: 110px 0 0 50px; z-index: 10;}
 .main02 .cell {transform: translate(500px, 0px); transition: all 1.5s;}
 .main02 dt {width: 50%;}
-.main02 .tit {font-size: 27px; font-weight: 300; line-height: 1.3;}
+.main02 .tit {font-size: 25px; font-weight: 300; line-height: 1.3;}
 .main02 strong {font-size: 60px; margin-bottom:15px; display: inline-block; color: #0c355e
 ;}
 .main02 strong font {color: #ffcd4a;}
@@ -153,19 +153,21 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 /**********  main03_박빙  ***********/
 
-.main03 {height: 630px; position: relative; padding: 75px 0 0 0; background: #f0f0f0; overflow: hidden;}
+.main03 {height: 620px; position: relative; padding: 75px 0 0 0; background: #f0f0f0; overflow: hidden;}
 .main03 .cell {height: 100%; transform: translate(-500px, 0px); transition: all 1.5s 0.9s;}
 .main03 .left-img{width: 50%; height: 100%;}
 .main03 .left-img img {width: 100%;}
 
-.main03 .right-txt{width: 44%; height: 270px; position: absolute; bottom: -120px; right:0; background: #fff; padding:30px 45px 50px; border-top-left-radius: 10px; border-top-right-radius: 10px; -moz-box-shadow: 3px 3px 3px 3px #999; -webkit-box-shadow: 3px 3px 3px 3px #999; box-shadow: 3px 0px 6px 0px rgba(153, 153, 153, 0.3);}
+.main03 .right-txt{width: 50%; position: absolute; top:37%; left: 60%;  padding:45px 45px 0px; border-top-left-radius: 10px; border-top-right-radius: 10px; background: #fff;}
+
 .main03 .right-txt span {display: inline-block; margin-left: 10px;}
 .main03 .right-txt span img {width: 100px; padding-top:5px;}
-.main03 .tit {font-size: 21px; font-weight: 300; line-height: 1.3; margin-bottom: 10px;}
-.main03 strong {font-size: 2rem; margin-bottom:15px; display: inline-block; color: #0c355e
-;}
-.main03 strong font {color:#f44336; }
-.main03 .subTxt {font-size: 16px; color: #666; font-weight: 300; line-height: 1.5;}
+.main03 .tit {font-size: 23px; font-weight: 300; line-height: 1.3; margin-bottom: 20px; text-align: center;}
+.main03 strong {font-size: 40px; margin-bottom:0px; display: block; color: #0c355e
+; text-align: center;}
+.main03 strong.last{margin-bottom: 30px;}
+.main03 strong font {color:#ffcd4a }
+.main03 .subTxt {font-size: 16px; color: #666; font-weight: 300; line-height: 1.5; text-align: center;}
 
 
 /**********  main04_사업모델  ***********/
@@ -664,7 +666,10 @@ footer .select:hover::after {color: #fff;}
     /* main03 */
     .main03 {height: 500px; padding: 0px 0 0 0;}
     .main03 .left-img {width: 60%; padding: 0px 50px 0px 0px;}
-    .main03 .right-txt {height: 280px; width: 40%; bottom:60px; padding: 30px 35px; border-top-left-radius: 10px; border-top-right-radius: 0px; border-bottom-left-radius: 10px;}
+    .main03 .right-txt {width: 36%; padding: 30px 35px; border-top-left-radius: 10px; border-top-right-radius: 0px; border-bottom-left-radius: 10px;}
+    .main03 .tit {font-size: 18px;}
+    .main03 strong {font-size: 30px;}
+    .main03 strong.last {margin-bottom: 15px;}
     /* main04 */
     .main04 ul li {width: 100%; height: 25%; border-bottom: 1px solid rgba(255, 255, 255, 0.15); position: relative;}
     .main04 ul li.on {width: 100%; height: 25%; background: rgba(255, 255, 255, 0.18);}
@@ -731,8 +736,14 @@ footer .select:hover::after {color: #fff;}
     .main02 {height: 500px;}
     .main02 dd {top: 20%; right: 5%; text-align: inherit;}
     /* main03 */
-    .main03 .left-img {width: 60%; padding: 0px 80px 0px 0px;}
-    .main03 .right-txt {width: 45%; height: auto; padding: 35px 35px; border-top-left-radius: 10px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 10px;}
+    .main03 {height: 500px; padding: 0px 0 0 0;}
+    .main03 .left-img {width: 60%; padding: 0px 50px 0px 0px;}
+    .main03 .right-txt {width: 36%; padding: 30px 35px; border-top-left-radius: 10px; border-top-right-radius: 0px; border-bottom-left-radius: 10px;}
+    .main03 .tit {font-size: 16px;}
+    .main03 strong {font-size: 28px;}
+    .main03 strong.last {margin-bottom: 30px;}
+    .main03 .subTxt {font-size: 15px; word-break:keep-all;}
+
     
     /* ------------ max-width:1024px 서브페이지 시작 ---------------*/
     

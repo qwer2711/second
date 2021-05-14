@@ -1,5 +1,9 @@
 $(document).ready(function () {
     
+    //header, footer load
+    ;$("#footer").load("footer.html");
+    
+    
    //모바일메뉴
     $(function () {
        // 태블릿, 모바일 토글메뉴효과
