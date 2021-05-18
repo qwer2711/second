@@ -310,7 +310,7 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .sub-root .root > ul > li ul.dropdown-menu.on {opacity: 1; }
 .sub-root .root > ul > li ul.dropdown-menu > li {width:100%; background: #fff;}
 .sub-root .root > ul > li ul.dropdown-menu > li > a {display: block; width:100%; padding: 5px 20px; border: 1px solid #dcdcdc; border-top: 0px solid #dcdcdc; background: #fff;}
-.sub-root .root > ul > li ul.dropdown-menu > li > a:hover {background-color:#0c355e ;color:#fff;}
+.sub-root .root > ul > li ul.dropdown-menu > li > a:hover {background-color:#0c355e; color:#fff;}
 .sub-root .root > ul > li ul.dropdown-menu > li > a{display: block;line-height: 35px;width:100%;}
 
 
@@ -318,9 +318,17 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 /****** sub-width ******/
 .cont_area {max-width:1400px; margin: 50px auto 50px;}
 
+@keyframes line {
+    0% { height: 10px;}
+    50% { height: 50px;}
+    100% { height: 10px; }
+}
+
+
 /****** sub1-1_인사말 ******/
 .top_cont {position: relative;}
-.top_cont .line {width: 3px; height: 50px; margin: 0 auto 10px; background: #093a5e;}
+.top_cont .line-box {height: 70px;}
+.top_cont .line { margin: 0 auto; width: 3px; height: 10px; animation: line 1.5s ease-in infinite; background: #0c355e;}
 .top_cont .greeting_tit {font-size: 2.5rem; font-weight: 600; color: #093a5e; line-height: 4.4rem; letter-spacing: -.05em; text-align: center;}
 
 .quote {position: relative; display: block; width: 50%; margin: 50px auto; font-size: 1.26rem; line-height: 2.833rem;  z-index: 3; font-weight: 400; text-align: center; text-indent: -30px;}
@@ -369,8 +377,8 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .history th,.history table td{padding:12px 0 11px;border-top:1px solid #e8e8e8}
 .history tr:first-child th,.history table tr:first-child td{border-top:none}
 .history th{font-size:15px;font-weight:normal;color:#172c52;vertical-align:top}
-.history th.mon{padding-left:2px;font-size:12px; font-weight: bold;}
-.history th.year{font-weight: bold;}
+.history th.mon{padding-left:2px;font-size:14px; font-weight: bold;}
+.history th.year{font-weight: bold; font-size: 20px;}
 .history td{line-height:20px; color:#72767c}
 .history_open{display:inline-block;margin:45px 0 0 5px;outline:none}
 
@@ -507,6 +515,22 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .gall-detail .iframe-box {margin-top: 50px; width: 100%; height: 550px;}
 .gall-detail .iframe-box iframe {width: 70%; height: 550px;}
 
+/****** sub3-3_자료 ******/
+
+.file-box .file-list {width: 100%; margin-bottom: 100px;}
+.file-box .file-list .left-txt {width: 30%; font-size: 18px;}
+.file-box .file-list .left-txt h3 { border-bottom: 2px solid #4d4d4d; display: inline-block;}
+.file-box .file-list .right-cont {width: 70%;}
+
+/* 테이블 */
+.right-cont .tbl{width:100%;border-collapse:collapse;border-spacing:0; table-layout:fixed; border-top: 2px solid #4d4d4d;}
+.right-cont .tbl th{border-bottom:1px solid #e6e6e6; font-size:16px}
+.right-cont .tbl td{border-bottom:1px solid #e6e6e6; line-height:26px; text-align:center; padding:15px 20px;}
+.right-cont .tbl td .font-left {text-align: left; text-indent: 20px; font-size: 16px;}
+.right-cont .tbl thead th{padding:15px 20px; color:#1e1e1e;}
+
+.right-cont .tbl td .down {border:1px solid #1e1e1e; padding: 8px 20px;}
+.right-cont .tbl td .down i {margin-left: 10px;}
 
 
 /* sub4-1_오시는길 */
@@ -516,6 +540,26 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .add-box {position: absolute; bottom: 0; left: 0%; background: #0c355e; color: #fff; width: 100%; padding: 30px 20px; font-size: 16px;}
 .tit_1 {width: 10%; text-align: center; line-height: 63px; margin-left: 25%; margin-right: 2.5%; }
 .tit_2 {width: 40%; text-align: left; margin-right: 22.5%;}
+
+
+
+/* sub4-2문의하기 */
+.question-box i {font-size: 20px; margin-right: 10px; color: #0c355e;}
+.ttt{display: block;  margin-bottom: 20px;}
+.field1{width:100%;}
+.field2{width:100%;}
+.field3{width:100%;}
+.data_f1{display: inline-block; height: 35px; border: 1px solid #ccc; width: 100%; margin-top: 14px; text-indent: 1em; border-radius: 60px;}
+
+
+.qna {margin: 40px 0;}
+.qna_box{border: 1px solid #ccc; width: 100%; height: 150px; border-radius: 5px; margin-top: 14px;}
+
+.submit_btn {text-align: center;}
+.frm_btn{background: #1f416d;color:#fff; border-radius: 30px; font-size: 1.0em; cursor: pointer; font-weight: 700; border:0; padding: 15px 60px;}
+.frm_btn:hover {background: rgba(12, 53, 94, 0.8);}
+
+
 
 
 /* 이용안내 */
@@ -878,14 +922,22 @@ footer .select:hover::after {color: #fff;}
     /*동영상*/
     .gall-detail .iframe-box {height: 380px;}
     .galleryList > ul > li .title {font-size: 0.95rem;}
+    
+        
+    /****** sub3-3_자료 ******/
+
+    .file-box .file-list .left-txt {width: 100%; font-size: 18px; text-align: center;}
+    .file-box .file-list .right-cont {width: 100%; margin-top: 30px;}
+    .right-cont .tbl td .down {padding: 5px 10px;}
+
+  
 
     /* 이용안내 */
 
     .policy {padding: 60px 20px;}
     .policy h1 {font-size: 25px;}
     
-        
-        
+
 
 }
 
@@ -945,8 +997,9 @@ footer .select:hover::after {color: #fff;}
     
     /* sub1-1 인사말 */
     .top_cont .line {width: 3px; height: 30px; margin: 0 auto 0px; background: #093a5e;}
-    .top_cont .greeting_tit {font-size: 30px; padding: 0 20px;}
-    .quote {width: 70%; margin: 30px auto 10px; font-size: 1rem; line-height: 2.4rem; }
+    .top_cont .greeting_tit {font-size: 25px; padding: 0 20px;}
+    .quote {width:85%; margin: 30px auto 10px; font-size: 1rem; line-height: 2.4rem; text-indent: 0; }
+    .top_cont .greeting_tit:after, .top_cont .greeting_tit:before {display: none;}
     .txt_box .greeting_txt font {font-size: 20px;}
     .txt_box .greeting_txt {text-align: left; font-size: 1.10rem;}
     .txt_box {padding: 20px 0px 0px;}
