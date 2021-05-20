@@ -342,7 +342,7 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 
 .txt_box {padding: 0px 0px 50px;}
-.txt_box .greeting_txt {max-width:1170px; margin: 0 auto; font-size: 1.18rem; line-height: 30px; }
+.txt_box .greeting_txt {max-width:1170px; margin: 0 auto; font-size: 16px; line-height: 30px; }
 .txt_box .greeting_txt font {font-size: 25px;}
 .txt_box .greeting_txt_1 { border-top:1px solid #dcdcdc; padding-top: 50px;}
 .last span {font-size: 23px; font-weight: 500; line-height: 100px; margin-right: 10px; color: #000;}
