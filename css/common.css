@@ -481,7 +481,7 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 /* 제목 */
 .galleryList > ul > li .txt {width: 100%; display: block; height: auto; position: relative;}
-.galleryList > ul > li .title {color: #000; font-size: 1.2rem; line-height: 26px; display: block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; word-break: keep-all; width: 100%; -webkit-transition: all .4s; transition: all .4s; margin-bottom: 1rem;}
+.galleryList > ul > li .title {color: #000; font-size: 1.17rem; line-height: 26px; display: block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; word-break: keep-all; width: 100%; -webkit-transition: all .4s; transition: all .4s; margin-bottom: 1rem; font-weight: 500;}
 .galleryList > ul > li .title font {font-weight: 500; margin-left: 10px;}
 .galleryList > ul > li .date {font-size: 0.95rem; display: inline-block; color: #666;}
 
@@ -555,7 +555,8 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 
 .qna {margin: 40px 0;}
 .qna_box{border: 1px solid #ccc; width: 100%; height: 150px; border-radius: 5px; margin-top: 14px;}
-
+.qna .kakao {margin-top: 20px; display: block; padding: 15px 10px; border:1px solid #ccc; border-radius: 5px;}
+.qna .kakao:hover {text-decoration: underline; color: #0075fd;}
 .submit_btn {text-align: center;}
 .frm_btn{background: #1f416d;color:#fff; border-radius: 30px; font-size: 1.0em; cursor: pointer; font-weight: 700; border:0; padding: 15px 60px;}
 .frm_btn:hover {background: rgba(12, 53, 94, 0.8);}
