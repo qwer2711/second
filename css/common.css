@@ -552,15 +552,23 @@ ul.info {width: 15%; height: 60px; vertical-align: middle;}
 .field3{width:100%;}
 .data_f1{display: inline-block; height: 35px; border: 1px solid #ccc; width: 100%; margin-top: 14px; text-indent: 1em; border-radius: 60px;}
 
+/*
 
 .qna {margin: 40px 0;}
 .qna_box{border: 1px solid #ccc; width: 100%; height: 150px; border-radius: 5px; margin-top: 14px;}
-.qna .kakao {margin-top: 20px; display: block; padding: 15px 10px; border:1px solid #ccc; border-radius: 5px;}
+*/
+.qna {text-align: center; padding: 50px 0 50px; background: #eee; border-radius: 15px;}
+.qna .img-box {width: 90px; margin: 0 auto 20px;}
+.qna .kakao {margin-top: 20px; display: inline-block; padding: 20px 5rem; border:1px solid #ccc; border-radius: 60px; background: rgba(255, 255, 255, 0.57);}
 .qna .kakao:hover {text-decoration: underline; color: #0075fd;}
+
+
+/*
 .submit_btn {text-align: center;}
 .frm_btn{background: #1f416d;color:#fff; border-radius: 30px; font-size: 1.0em; cursor: pointer; font-weight: 700; border:0; padding: 15px 60px;}
 .frm_btn:hover {background: rgba(12, 53, 94, 0.8);}
 
+*/
 
 
 
@@ -1089,6 +1097,10 @@ footer .select:hover::after {color: #fff;}
     .tit_1 {width: 100%; text-align: center; line-height:50px; margin-left: 0%; margin-right:0%; }
     .tit_2 {width: 100%; text-align: left; margin-right: 0%; text-align: center; word-break: keep-all;}
     .map{margin: 10px 0 100px;}
+    
+    /* sub4-2_문의하기 */
+    .qna .img-box {width: 80px; margin: 0 auto 20px;}
+    .qna .kakao {margin-top: 20px; padding: 15px 2.2rem; border: 1px solid #ccc;border-radius: 60px; background: rgba(255, 255, 255, 0.57);}
     
     
 }
